@@ -1,0 +1,81 @@
+/* ============================================================
+   site.css — 多頁版新增的元件樣式
+   原站的 style.css 是 Tailwind 編譯結果，只含原站用過的類別；
+   新頁面需要的版型元件統一寫在這裡，不再臨時湊 Tailwind 類別。
+   ============================================================ */
+
+/* ---- 導覽列狀態（由 site.js 切 .is-scrolled / .is-open） ---- */
+.site-nav{background:transparent}
+.site-nav.nav-solid,.site-nav.is-scrolled,.site-nav.is-open{background:rgba(250,249,246,.95);box-shadow:0 1px 0 #e5e2db;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.site-nav .nav-fg{color:#fff}
+.site-nav .nav-fg-sub{color:rgba(255,255,255,.7)}
+.site-nav .nav-link{color:rgba(255,255,255,.9)}
+.site-nav.nav-solid .nav-fg,.site-nav.is-scrolled .nav-fg,.site-nav.is-open .nav-fg{color:#1e2b41}
+.site-nav.nav-solid .nav-fg-sub,.site-nav.is-scrolled .nav-fg-sub,.site-nav.is-open .nav-fg-sub{color:#687c95}
+.site-nav.nav-solid .nav-link,.site-nav.is-scrolled .nav-link{color:#1e2b41}
+.site-nav .nav-link.is-active:after{width:100%}
+.site-nav .nav-cta{border:1px solid rgba(255,255,255,.8);color:#fff;transition:background-color .2s,color .2s,border-color .2s}
+.site-nav .nav-cta:hover{background:#fff;color:#1e2b41}
+.site-nav.nav-solid .nav-cta,.site-nav.is-scrolled .nav-cta{border-color:#1e2b41;background:#1e2b41;color:#fff}
+.site-nav.nav-solid .nav-cta:hover,.site-nav.is-scrolled .nav-cta:hover{background:transparent;color:#1e2b41}
+.site-nav .burger span{height:1px;width:20px;background:currentColor;transition:transform .25s}
+.site-nav.is-open .burger span:first-child{transform:translateY(3px) rotate(45deg)}
+.site-nav.is-open .burger span:last-child{transform:translateY(-3px) rotate(-45deg)}
+.site-nav .mobile-nav{display:none}
+.site-nav.is-open .mobile-nav{display:block}
+@media(min-width:1024px){.site-nav .mobile-nav{display:none!important}}
+.site-nav.nav-hidden{transform:translateY(-100%)}
+
+/* ---- 內頁頂部橫幅 ---- */
+.page-hero{position:relative;overflow:hidden;background:#1e2b41;color:#fff;padding:9.5rem 0 4.5rem}
+@media(min-width:768px){.page-hero{padding:12rem 0 6.5rem}}
+.page-hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.page-hero__overlay{position:absolute;inset:0;background:rgba(30,43,65,.82)}
+.page-hero__inner{position:relative;z-index:1}
+.page-hero h1{font-family:Fraunces,"Noto Serif SC",Songti SC,serif;font-weight:300;line-height:1.08;letter-spacing:-.01em;font-size:clamp(2.25rem,6vw,4.25rem);max-width:18ch;margin-top:1.5rem}
+.page-hero p.sub{margin-top:1.5rem;max-width:36rem;font-size:15px;line-height:1.85;color:rgba(255,255,255,.72)}
+.breadcrumb{display:flex;flex-wrap:wrap;gap:.5rem;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.breadcrumb a{color:rgba(255,255,255,.75)}
+.breadcrumb a:hover{color:#fff}
+
+/* ---- 首頁 OEM 流程精簡版 ---- */
+.steps-mini{display:grid;grid-template-columns:1fr;gap:1px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.12);margin-top:3.5rem}
+@media(min-width:640px){.steps-mini{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.steps-mini{grid-template-columns:repeat(5,1fr)}}
+.steps-mini>div{background:#1e2b41;padding:1.75rem 1.5rem}
+.steps-mini .n{font-family:Fraunces,"Noto Serif SC",serif;font-weight:300;font-size:1.5rem;color:#9db1c7}
+.steps-mini h3{margin-top:.75rem;font-size:15px;font-weight:600}
+.steps-mini p{margin-top:.5rem;font-size:13px;line-height:1.7;color:rgba(255,255,255,.6)}
+
+/* ---- 行動呼籲橫幅 ---- */
+.cta-band{background:#1e2b41;color:#fff;padding:5rem 0}
+@media(min-width:768px){.cta-band{padding:7rem 0}}
+.cta-band h2{font-family:Fraunces,"Noto Serif SC",Songti SC,serif;font-weight:300;font-size:clamp(1.9rem,4vw,3rem);line-height:1.15;max-width:22ch}
+.cta-band p{margin-top:1.25rem;max-width:34rem;font-size:15px;line-height:1.85;color:rgba(255,255,255,.7)}
+.btn-light{display:inline-block;border-radius:9999px;background:#fff;color:#1e2b41;padding:.85rem 2rem;font-size:12px;font-weight:600;letter-spacing:.1em;transition:background-color .2s}
+.btn-light:hover{background:rgba(255,255,255,.85)}
+.btn-dark{display:inline-block;border-radius:9999px;background:#1e2b41;color:#fff;padding:.85rem 2.25rem;font-size:12px;font-weight:600;letter-spacing:.1em;transition:background-color .2s}
+.btn-dark:hover{background:#687c95}
+
+/* ---- 產品詳情 ---- */
+.spec-list{margin-top:2.5rem;border-top:1px solid #e5e2db}
+.spec-list div{display:grid;grid-template-columns:120px 1fr;gap:1rem;padding:1rem 0;border-bottom:1px solid #e5e2db;font-size:14px}
+.spec-list dt{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#687c95;font-weight:600;padding-top:.15rem}
+.spec-list dd{color:#1e2b41;line-height:1.7}
+.feature-list{margin-top:1rem;display:flex;flex-wrap:wrap;gap:.5rem .5rem}
+.feature-list li{border:1px solid rgba(30,43,65,.2);padding:.5rem 1rem;font-size:12px;font-weight:500;letter-spacing:.02em;color:#1e2b41}
+.bullet-list{margin-top:1rem;padding-left:1.1rem;list-style:disc;font-size:14px;line-height:1.9;color:#444}
+.related-grid{display:grid;grid-template-columns:1fr;gap:1.5rem 1.5rem;margin-top:2.5rem}
+@media(min-width:640px){.related-grid{grid-template-columns:repeat(3,1fr)}}
+
+/* ---- 其他 ---- */
+.section-light{background:#faf9f6}
+.lede{font-size:17px;line-height:1.8;color:#444;max-width:40rem}
+.status-ok{color:#3a7d44}.status-err{color:#b3402f}
+.not-found{min-height:70vh;display:flex;align-items:center;padding-top:5rem}
+.skip-link{position:absolute;left:-999px;top:0}
+.skip-link:focus{left:1rem;top:1rem;z-index:100;background:#fff;color:#1e2b41;padding:.5rem 1rem}
+
+/* ---- 補原站編譯時漏掉的類別 ---- */
+.border-white\/12{border-color:rgba(255,255,255,.12)}
+.form-status{min-height:1.25rem}

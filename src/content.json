@@ -1,0 +1,678 @@
+{
+  "zh": {
+    "nav": {
+      "factory": "工厂实力",
+      "products": "产品系列",
+      "oem": "OEM / ODM",
+      "quality": "品质保证",
+      "markets": "全球市场",
+      "contact": "联系我们",
+      "cta": "获取报价"
+    },
+    "hero": {
+      "caption": "DONGGUAN · CHINA — SINCE 2008",
+      "line1": "亚克力浴缸",
+      "line2": "为全球品牌而造",
+      "sub": "东莞胜昌实业有限公司，专注亚克力浴缸与淋浴底盘的 OEM / ODM 制造，从真空吸塑成型到出口装柜，一站式交付。",
+      "ctaPrimary": "浏览产品系列",
+      "ctaSecondary": "提交询盘",
+      "stats": [
+        {
+          "value": "16+",
+          "label": "年出口制造经验"
+        },
+        {
+          "value": "20,000㎡",
+          "label": "现代化生产基地"
+        },
+        {
+          "value": "60,000",
+          "label": "只浴缸年产能"
+        },
+        {
+          "value": "30+",
+          "label": "出口国家与地区"
+        }
+      ]
+    },
+    "marquee": [
+      "OEM 代工",
+      "ODM 定制",
+      "亚克力浴缸",
+      "淋浴底盘",
+      "真空吸塑一体成型",
+      "100% 试水检测",
+      "FOB SHENZHEN",
+      "出口加固包装",
+      "ISO 9001:2015"
+    ],
+    "about": {
+      "caption": "FACTORY STRENGTH — 工厂实力",
+      "title": "从一块亚克力板材，到一只成品浴缸",
+      "p1": "胜昌实业坐落于制造业重镇广东东莞，拥有从板材裁切、真空吸塑成型、玻纤树脂加固到成品试水检测的完整产线。每一只浴缸都在同一厂区内完成全部工序，品质全程可控。",
+      "p2": "我们长期服务于大洋洲、欧洲、北美与东南亚的卫浴品牌与进口商，熟悉各国认证与装柜标准，支持小批量试单与整柜混装。",
+      "chips": [
+        "自动裁板下料",
+        "真空吸塑成型",
+        "玻纤树脂加固",
+        "钢架结构支撑",
+        "100% 试水检测",
+        "恒温固化车间"
+      ],
+      "imageCaption": "吸塑成型车间 · 东莞"
+    },
+    "products": {
+      "caption": "PRODUCT LINES — 产品系列",
+      "title": "四大产品线，覆盖主流卫浴市场",
+      "desc": "所有系列支持尺寸、颜色、排水位与五金配件定制，整柜起订，支持混装。",
+      "items": [
+        {
+          "name": "独立式浴缸",
+          "en": "Freestanding Bathtub",
+          "spec": "1500–1800mm · 薄边/厚边 · 亮光/哑光",
+          "moq": "MOQ 20 只",
+          "slug": "freestanding",
+          "image": "assets/img/product-freestanding.jpg",
+          "detail": "独立式浴缸是出口市场需求最大的品类。我们按客户图纸或样品开模，常规长度 1500–1800mm，可选薄边或厚边、亮光或哑光表面，底部配钢架结构与可调脚，整柜出运。",
+          "features": [
+            "1500–1800mm",
+            "薄边/厚边",
+            "亮光/哑光"
+          ]
+        },
+        {
+          "name": "嵌入式浴缸",
+          "en": "Drop-in Bathtub",
+          "spec": "1400–1800mm · 宽台面 · 可配裙边",
+          "moq": "MOQ 30 只",
+          "slug": "dropin",
+          "image": "assets/img/product-dropin.jpg",
+          "detail": "嵌入式浴缸适合与台面、瓷砖整合安装，常规长度 1400–1800mm，宽台面设计方便放置用品，可按需配裙边与溢水口位置，适合家装连锁与工程项目。",
+          "features": [
+            "1400–1800mm",
+            "宽台面",
+            "可配裙边"
+          ]
+        },
+        {
+          "name": "深泡浴缸",
+          "en": "Soaking Bathtub",
+          "spec": "日式深泡 · 加高靠背 · 人体工学内腔",
+          "moq": "MOQ 20 只",
+          "slug": "soaking",
+          "image": "assets/img/product-soaking.jpg",
+          "detail": "深泡浴缸采用日式深泡设计，加高靠背与人体工学内腔，占地小、水深足，适合小户型与精品酒店项目，尺寸与排水位可定制。",
+          "features": [
+            "日式深泡",
+            "加高靠背",
+            "人体工学内腔"
+          ]
+        },
+        {
+          "name": "淋浴底盘",
+          "en": "Shower Tray",
+          "spec": "方/长/扇形 · 防滑底纹 · 薄边设计",
+          "moq": "MOQ 50 只",
+          "slug": "tray",
+          "image": "assets/img/product-tray.jpg",
+          "detail": "淋浴底盘提供方形、长方形与扇形，底部防滑纹理，薄边设计便于无障碍进出。可配同色排水盖，整柜混装可与浴缸拼柜出运。",
+          "features": [
+            "方/长/扇形",
+            "防滑底纹",
+            "薄边设计"
+          ]
+        }
+      ],
+      "cta": "索取完整产品目录 →"
+    },
+    "oem": {
+      "caption": "OEM / ODM — 合作流程",
+      "title": "五个步骤，把您的设计变成货柜里的产品",
+      "steps": [
+        {
+          "n": "01",
+          "t": "需求沟通",
+          "d": "确认目标市场、尺寸范围、认证要求与预期价格带，24 小时内回复可行性评估。"
+        },
+        {
+          "n": "02",
+          "t": "设计打样",
+          "d": "来图来样均可，15–25 天完成模具与首样，提供 3D 图纸确认。"
+        },
+        {
+          "n": "03",
+          "t": "样品确认",
+          "d": "寄样实测，按反馈修改细节，确认包装方案与唛头。"
+        },
+        {
+          "n": "04",
+          "t": "批量生产",
+          "d": "标准交期 30–35 天，产中提供照片与视频进度汇报。"
+        },
+        {
+          "n": "05",
+          "t": "验货出运",
+          "d": "支持第三方验货，出口加固包装，深圳港整柜/拼柜出运。"
+        }
+      ],
+      "note": "支持品牌 LOGO 丝印 · 定制说明书与纸箱 · 条码与唛头服务"
+    },
+    "quality": {
+      "caption": "QUALITY — 品质保证",
+      "title": "每一只浴缸，出厂前都要过这四关",
+      "items": [
+        {
+          "t": "来料检验",
+          "d": "亚克力板材厚度、色差与杂质抽检，源头控制。"
+        },
+        {
+          "t": "产中巡检",
+          "d": "成型温度、玻纤层数与树脂配比全程记录。"
+        },
+        {
+          "t": "100% 试水",
+          "d": "满水静置检测渗漏，排水系统逐只测试。"
+        },
+        {
+          "t": "出厂终检",
+          "d": "表面光泽度、承重与包装完整性终检后入库。"
+        }
+      ],
+      "certs": [
+        "ISO 9001:2015",
+        "CE",
+        "cUPC",
+        "WaterMark"
+      ],
+      "certsNote": "认证覆盖主要出口市场，可按目标国家协助送检。"
+    },
+    "markets": {
+      "caption": "GLOBAL MARKETS — 全球市场",
+      "title": "装进三十多个国家的浴室",
+      "desc": "从新西兰的家装连锁到德国的卫浴进口商，我们按不同市场的标准组织生产与装柜。",
+      "regions": [
+        {
+          "name": "大洋洲",
+          "detail": "新西兰 · 澳大利亚"
+        },
+        {
+          "name": "欧洲",
+          "detail": "德国 · 英国 · 法国"
+        },
+        {
+          "name": "亚洲",
+          "detail": "印度 · 印尼 · 中东"
+        },
+        {
+          "name": "美洲",
+          "detail": "美国 · 加拿大"
+        }
+      ],
+      "imageCaption": "成品仓 · 待装柜出口"
+    },
+    "inquiry": {
+      "caption": "INQUIRY — 提交询盘",
+      "title": "告诉我们您的需求，24 小时内回复",
+      "desc": "填写以下信息，销售工程师将直接与您联系，提供报价、交期与样品安排。",
+      "form": {
+        "name": "您的姓名 *",
+        "company": "公司名称",
+        "email": "邮箱 *",
+        "country": "国家 / 地区",
+        "product": "感兴趣的产品",
+        "productOptions": [
+          "独立式浴缸",
+          "嵌入式浴缸",
+          "深泡浴缸",
+          "淋浴底盘",
+          "OEM 定制项目"
+        ],
+        "message": "需求描述（尺寸、数量、目标价格等）",
+        "submit": "发送询盘",
+        "sent": "已为您打开邮件客户端，点击发送即可送达我们的销售团队。",
+        "invalid": "请填写姓名与邮箱后再提交。"
+      },
+      "contact": {
+        "title": "联系方式",
+        "addr": "广东省东莞市 · 胜昌实业生产基地",
+        "email": "sales@shengchang-ind.com",
+        "phone": "+86 769 0000 0000",
+        "whatsapp": "WhatsApp / WeChat: +86 138 0000 0000",
+        "hours": "周一至周六 8:00–18:00 (GMT+8)"
+      }
+    },
+    "footer": {
+      "tagline": "亚克力浴缸与淋浴底盘制造商",
+      "linksTitle": "快速导航",
+      "contactTitle": "联系",
+      "rights": "© 2026 东莞胜昌实业有限公司 · DONGGUAN SHENGCHANG INDUSTRIES LIMITED"
+    },
+    "site": {
+      "name": "SHENGCHANG",
+      "cn": "胜昌实业",
+      "company": "东莞胜昌实业有限公司",
+      "titleTag": "胜昌实业 SHENGCHANG — 亚克力浴缸制造商",
+      "home": "首页",
+      "langLabel": "切换到英文"
+    },
+    "common": {
+      "learnMore": "了解更多 →",
+      "viewAll": "查看全部产品 →",
+      "backToProducts": "← 返回产品系列",
+      "otherProducts": "其他产品系列",
+      "features": "产品特点",
+      "customization": "可定制项目",
+      "customItems": [
+        "尺寸与内腔深度",
+        "颜色（亮光 / 哑光 / 定制色）",
+        "排水位与溢水口",
+        "五金配件与裙边",
+        "品牌 LOGO 丝印与包装"
+      ],
+      "moqLabel": "起订量",
+      "askThis": "询问此产品",
+      "cta": {
+        "title": "有项目想谈？24 小时内回复",
+        "desc": "把目标市场、尺寸范围与数量告诉我们，销售工程师将直接给您报价、交期与样品安排。",
+        "button": "提交询盘"
+      },
+      "processTeaser": "合作流程",
+      "qualityTeaser": "认证与检测"
+    },
+    "pages": {
+      "home": {
+        "title": "胜昌实业 SHENGCHANG — 亚克力浴缸 OEM / ODM 制造商",
+        "desc": "东莞胜昌实业有限公司，专注亚克力浴缸与淋浴底盘的 OEM / ODM 制造，从真空吸塑成型到出口装柜一站式交付。"
+      },
+      "factory": {
+        "title": "工厂实力",
+        "desc": "东莞 20,000㎡ 生产基地，从板材裁切、真空吸塑到试水检测的完整产线。",
+        "caption": "FACTORY STRENGTH — 工厂实力",
+        "h1": "从一块亚克力板材，到一只成品浴缸",
+        "sub": "同一厂区完成全部工序，品质全程可控。",
+        "capTitle": "六道核心工序",
+        "capDesc": "每一只浴缸都在东莞厂区内走完以下工序，不外发、不分段。"
+      },
+      "products": {
+        "title": "产品系列",
+        "desc": "独立式浴缸、嵌入式浴缸、深泡浴缸与淋浴底盘四大产品线，支持尺寸、颜色与配件定制。",
+        "caption": "PRODUCT LINES — 产品系列",
+        "h1": "四大产品线，覆盖主流卫浴市场",
+        "sub": "所有系列支持定制，整柜起订，支持混装。"
+      },
+      "oem": {
+        "title": "OEM / ODM 合作流程",
+        "desc": "从需求沟通、设计打样到批量生产与验货出运，五个步骤把您的设计变成货柜里的产品。",
+        "caption": "OEM / ODM — 合作流程",
+        "h1": "五个步骤，把您的设计变成货柜里的产品",
+        "sub": "来图来样均可，标准交期 30–35 天。"
+      },
+      "quality": {
+        "title": "品质保证",
+        "desc": "来料检验、产中巡检、100% 试水与出厂终检四道关卡，ISO 9001、CE、cUPC、WaterMark 认证。",
+        "caption": "QUALITY — 品质保证",
+        "h1": "每一只浴缸，出厂前都要过这四关",
+        "sub": "认证覆盖主要出口市场，可按目标国家协助送检。",
+        "certsTitle": "认证"
+      },
+      "markets": {
+        "title": "全球市场",
+        "desc": "产品销往大洋洲、欧洲、亚洲与美洲三十多个国家与地区。",
+        "caption": "GLOBAL MARKETS — 全球市场",
+        "h1": "装进三十多个国家的浴室",
+        "sub": "按不同市场的标准组织生产与装柜。"
+      },
+      "contact": {
+        "title": "联系我们 · 提交询盘",
+        "desc": "填写询盘表单，销售工程师 24 小时内回复报价、交期与样品安排。",
+        "caption": "INQUIRY — 提交询盘",
+        "h1": "告诉我们您的需求，24 小时内回复",
+        "sub": "填写以下信息，销售工程师将直接与您联系。"
+      },
+      "notFound": {
+        "title": "页面不存在",
+        "h1": "找不到这个页面",
+        "sub": "链接可能已经变更。",
+        "back": "返回首页"
+      }
+    }
+  },
+  "en": {
+    "nav": {
+      "factory": "Factory",
+      "products": "Products",
+      "oem": "OEM / ODM",
+      "quality": "Quality",
+      "markets": "Markets",
+      "contact": "Contact",
+      "cta": "Get a Quote"
+    },
+    "hero": {
+      "caption": "DONGGUAN · CHINA — SINCE 2008",
+      "line1": "Acrylic Bathtubs,",
+      "line2": "Built for Global Brands",
+      "sub": "Dongguan Shengchang Industries Limited — an OEM / ODM manufacturer of acrylic bathtubs and shower trays, delivering everything from vacuum forming to container loading under one roof.",
+      "ctaPrimary": "Explore Products",
+      "ctaSecondary": "Send an Inquiry",
+      "stats": [
+        {
+          "value": "16+",
+          "label": "Years of export manufacturing"
+        },
+        {
+          "value": "20,000㎡",
+          "label": "Production facility"
+        },
+        {
+          "value": "60,000",
+          "label": "Bathtubs annual capacity"
+        },
+        {
+          "value": "30+",
+          "label": "Export countries & regions"
+        }
+      ]
+    },
+    "marquee": [
+      "OEM Manufacturing",
+      "ODM Development",
+      "Acrylic Bathtubs",
+      "Shower Trays",
+      "Vacuum Forming",
+      "100% Water Testing",
+      "FOB SHENZHEN",
+      "Export-grade Packing",
+      "ISO 9001:2015"
+    ],
+    "about": {
+      "caption": "FACTORY STRENGTH",
+      "title": "From an acrylic sheet to a finished bathtub",
+      "p1": "Based in Dongguan, Guangdong — the heart of China’s manufacturing — Shengchang runs a complete in-house production line: sheet cutting, vacuum forming, fiberglass & resin reinforcement, and final water testing. Every bathtub is finished inside a single facility, with quality controlled end to end.",
+      "p2": "We have long served sanitary ware brands and importers across Oceania, Europe, North America and Southeast Asia, and are fluent in the certification and container-loading standards of each market. Trial orders and mixed containers are welcome.",
+      "chips": [
+        "CNC sheet cutting",
+        "Vacuum forming",
+        "Fiberglass reinforcement",
+        "Steel frame support",
+        "100% water test",
+        "Climate-controlled curing"
+      ],
+      "imageCaption": "Vacuum forming workshop · Dongguan"
+    },
+    "products": {
+      "caption": "PRODUCT LINES",
+      "title": "Four product lines for mainstream markets",
+      "desc": "Every series supports custom sizes, colors, drain positions and hardware. Full-container orders with mixed loading available.",
+      "items": [
+        {
+          "name": "Freestanding Bathtub",
+          "en": "独立式浴缸",
+          "spec": "1500–1800mm · Slim / wide rim · Gloss / matte",
+          "moq": "MOQ 20 pcs",
+          "slug": "freestanding",
+          "image": "assets/img/product-freestanding.jpg",
+          "detail": "Freestanding bathtubs are our highest-volume export line. We tool from your drawings or samples, with standard lengths of 1500–1800mm, slim or wide rims, gloss or matte finish, a steel support frame with adjustable feet, and full-container shipping.",
+          "features": [
+            "1500–1800mm",
+            "Slim / wide rim",
+            "Gloss / matte"
+          ]
+        },
+        {
+          "name": "Drop-in Bathtub",
+          "en": "嵌入式浴缸",
+          "spec": "1400–1800mm · Wide deck · Optional skirt",
+          "moq": "MOQ 30 pcs",
+          "slug": "dropin",
+          "image": "assets/img/product-dropin.jpg",
+          "detail": "Drop-in bathtubs integrate with tiled or stone decks. Standard lengths 1400–1800mm, a wide deck for toiletries, optional skirt and custom overflow position. Popular with home-improvement chains and project buyers.",
+          "features": [
+            "1400–1800mm",
+            "Wide deck",
+            "Optional skirt"
+          ]
+        },
+        {
+          "name": "Soaking Bathtub",
+          "en": "深泡浴缸",
+          "spec": "Japanese deep soak · Raised backrest · Ergonomic well",
+          "moq": "MOQ 20 pcs",
+          "slug": "soaking",
+          "image": "assets/img/product-soaking.jpg",
+          "detail": "Our soaking bathtubs follow the Japanese deep-soak format: raised backrest, ergonomic well, small footprint and generous water depth. Suited to compact apartments and boutique hotels; sizes and drain positions can be customised.",
+          "features": [
+            "Japanese deep soak",
+            "Raised backrest",
+            "Ergonomic well"
+          ]
+        },
+        {
+          "name": "Shower Tray",
+          "en": "淋浴底盘",
+          "spec": "Square / rectangle / quadrant · Anti-slip · Slim edge",
+          "moq": "MOQ 50 pcs",
+          "slug": "tray",
+          "image": "assets/img/product-tray.jpg",
+          "detail": "Shower trays come in square, rectangular and quadrant formats with an anti-slip textured base and a slim edge for easy step-in. Colour-matched drain covers available; trays can be mixed with bathtubs in one container.",
+          "features": [
+            "Square / rectangle / quadrant",
+            "Anti-slip",
+            "Slim edge"
+          ]
+        }
+      ],
+      "cta": "Request the full catalogue →"
+    },
+    "oem": {
+      "caption": "OEM / ODM PROCESS",
+      "title": "Five steps from your drawing to a loaded container",
+      "steps": [
+        {
+          "n": "01",
+          "t": "Requirement Brief",
+          "d": "Share your target market, size range, certification needs and price band. Feasibility reply within 24 hours."
+        },
+        {
+          "n": "02",
+          "t": "Design & Tooling",
+          "d": "Drawings or physical samples both work. Moulds and first sample in 15–25 days, with 3D drawings for approval."
+        },
+        {
+          "n": "03",
+          "t": "Sample Approval",
+          "d": "Physical sample shipped for testing. Details refined, packing and shipping marks confirmed."
+        },
+        {
+          "n": "04",
+          "t": "Mass Production",
+          "d": "Standard lead time 30–35 days, with photo and video progress updates during production."
+        },
+        {
+          "n": "05",
+          "t": "Inspection & Shipping",
+          "d": "Third-party inspection supported. Export-grade packing, FCL/LCL from Shenzhen port."
+        }
+      ],
+      "note": "Logo silk-printing · Custom manuals & cartons · Barcode & shipping mark services"
+    },
+    "quality": {
+      "caption": "QUALITY ASSURANCE",
+      "title": "Four gates every bathtub must pass",
+      "items": [
+        {
+          "t": "Incoming Inspection",
+          "d": "Acrylic sheets checked for thickness, color consistency and impurities — quality controlled at the source."
+        },
+        {
+          "t": "In-process Patrol",
+          "d": "Forming temperature, fiberglass layers and resin ratio recorded throughout production."
+        },
+        {
+          "t": "100% Water Test",
+          "d": "Every tub filled and rested to detect leakage; drainage systems tested one by one."
+        },
+        {
+          "t": "Final Inspection",
+          "d": "Surface gloss, load-bearing and packing integrity verified before warehousing."
+        }
+      ],
+      "certs": [
+        "ISO 9001:2015",
+        "CE",
+        "cUPC",
+        "WaterMark"
+      ],
+      "certsNote": "Certifications cover major export markets; testing for specific countries can be arranged."
+    },
+    "markets": {
+      "caption": "GLOBAL MARKETS",
+      "title": "Installed in bathrooms across 30+ countries",
+      "desc": "From home-improvement chains in New Zealand to sanitary ware importers in Germany, we organize production and loading to each market’s standard.",
+      "regions": [
+        {
+          "name": "Oceania",
+          "detail": "New Zealand · Australia"
+        },
+        {
+          "name": "Europe",
+          "detail": "Germany · UK · France"
+        },
+        {
+          "name": "Asia",
+          "detail": "India · Indonesia · Middle East"
+        },
+        {
+          "name": "Americas",
+          "detail": "USA · Canada"
+        }
+      ],
+      "imageCaption": "Finished-goods warehouse · awaiting export"
+    },
+    "inquiry": {
+      "caption": "INQUIRY",
+      "title": "Tell us what you need — reply within 24 hours",
+      "desc": "Fill in the form and a sales engineer will contact you directly with pricing, lead time and sample arrangements.",
+      "form": {
+        "name": "Your name *",
+        "company": "Company",
+        "email": "Email *",
+        "country": "Country / Region",
+        "product": "Product of interest",
+        "productOptions": [
+          "Freestanding Bathtub",
+          "Drop-in Bathtub",
+          "Soaking Bathtub",
+          "Shower Tray",
+          "OEM Custom Project"
+        ],
+        "message": "Requirements (sizes, quantities, target price…)",
+        "submit": "Send Inquiry",
+        "sent": "Your mail client has been opened — hit send and it reaches our sales team directly.",
+        "invalid": "Please fill in your name and email before submitting."
+      },
+      "contact": {
+        "title": "Contact",
+        "addr": "Shengchang Production Base · Dongguan, Guangdong, China",
+        "email": "sales@shengchang-ind.com",
+        "phone": "+86 769 0000 0000",
+        "whatsapp": "WhatsApp / WeChat: +86 138 0000 0000",
+        "hours": "Mon–Sat 8:00–18:00 (GMT+8)"
+      }
+    },
+    "footer": {
+      "tagline": "Manufacturer of acrylic bathtubs & shower trays",
+      "linksTitle": "Quick Links",
+      "contactTitle": "Contact",
+      "rights": "© 2026 DONGGUAN SHENGCHANG INDUSTRIES LIMITED · 东莞胜昌实业有限公司"
+    },
+    "site": {
+      "name": "SHENGCHANG",
+      "cn": "胜昌实业",
+      "company": "Dongguan Shengchang Industries Limited",
+      "titleTag": "SHENGCHANG — Acrylic Bathtub Manufacturer",
+      "home": "Home",
+      "langLabel": "Switch to Chinese"
+    },
+    "common": {
+      "learnMore": "Learn more →",
+      "viewAll": "View all products →",
+      "backToProducts": "← Back to products",
+      "otherProducts": "Other product lines",
+      "features": "Features",
+      "customization": "Customization",
+      "customItems": [
+        "Dimensions and well depth",
+        "Colour (gloss / matte / custom)",
+        "Drain and overflow position",
+        "Hardware and skirt options",
+        "Logo silk-printing and packaging"
+      ],
+      "moqLabel": "MOQ",
+      "askThis": "Ask about this product",
+      "cta": {
+        "title": "Have a project in mind? Reply within 24 hours",
+        "desc": "Tell us your target market, size range and quantities. A sales engineer will come back with pricing, lead time and sample arrangements.",
+        "button": "Send an Inquiry"
+      },
+      "processTeaser": "How we work",
+      "qualityTeaser": "Certifications & testing"
+    },
+    "pages": {
+      "home": {
+        "title": "SHENGCHANG — Acrylic Bathtub OEM / ODM Manufacturer",
+        "desc": "Dongguan Shengchang Industries Limited, an OEM / ODM manufacturer of acrylic bathtubs and shower trays, from vacuum forming to container loading under one roof."
+      },
+      "factory": {
+        "title": "Factory",
+        "desc": "A 20,000㎡ production base in Dongguan with a complete line from sheet cutting and vacuum forming to water testing.",
+        "caption": "FACTORY STRENGTH",
+        "h1": "From an acrylic sheet to a finished bathtub",
+        "sub": "Every step inside one facility, quality controlled end to end.",
+        "capTitle": "Six core processes",
+        "capDesc": "Every bathtub goes through the following steps inside our Dongguan facility. Nothing is outsourced."
+      },
+      "products": {
+        "title": "Products",
+        "desc": "Freestanding, drop-in and soaking bathtubs plus shower trays, with custom sizes, colours and hardware.",
+        "caption": "PRODUCT LINES",
+        "h1": "Four product lines for mainstream markets",
+        "sub": "Every series can be customised. Full-container orders with mixed loading available."
+      },
+      "oem": {
+        "title": "OEM / ODM Process",
+        "desc": "From requirement brief and tooling to mass production and shipping, five steps from your drawing to a loaded container.",
+        "caption": "OEM / ODM PROCESS",
+        "h1": "Five steps from your drawing to a loaded container",
+        "sub": "Drawings or samples both work. Standard lead time 30–35 days."
+      },
+      "quality": {
+        "title": "Quality",
+        "desc": "Incoming inspection, in-process patrol, 100% water testing and final inspection. ISO 9001, CE, cUPC and WaterMark certified.",
+        "caption": "QUALITY ASSURANCE",
+        "h1": "Four gates every bathtub must pass",
+        "sub": "Certifications cover major export markets; testing for specific countries can be arranged.",
+        "certsTitle": "Certifications"
+      },
+      "markets": {
+        "title": "Markets",
+        "desc": "Shipped to more than 30 countries and regions across Oceania, Europe, Asia and the Americas.",
+        "caption": "GLOBAL MARKETS",
+        "h1": "Installed in bathrooms across 30+ countries",
+        "sub": "Production and loading organised to each market’s standard."
+      },
+      "contact": {
+        "title": "Contact · Send an Inquiry",
+        "desc": "Fill in the inquiry form and a sales engineer will reply within 24 hours with pricing, lead time and samples.",
+        "caption": "INQUIRY",
+        "h1": "Tell us what you need — reply within 24 hours",
+        "sub": "Fill in the form and a sales engineer will contact you directly."
+      },
+      "notFound": {
+        "title": "Page not found",
+        "h1": "We can’t find that page",
+        "sub": "The link may have changed.",
+        "back": "Back to home"
+      }
+    }
+  }
+}
