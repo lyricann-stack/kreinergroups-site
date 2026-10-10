@@ -79,3 +79,11 @@
 /* ---- 補原站編譯時漏掉的類別 ---- */
 .border-white\/12{border-color:rgba(255,255,255,.12)}
 .form-status{min-height:1.25rem}
+
+/* 3D 工廠導覽入口（factory 頁） */
+.tour-note{margin-top:1rem;font-size:12px;color:#687c95}
+.tour-cover{position:relative;display:block;overflow:hidden}
+.tour-cover img{transition:transform .7s}
+.tour-cover:hover img{transform:scale(1.03)}
+.tour-play{position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:9999px;background:rgba(30,43,65,.82);box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.tour-play::after{content:"";position:absolute;left:31px;top:24px;border-style:solid;border-width:14px 0 14px 22px;border-color:transparent transparent transparent #fff}

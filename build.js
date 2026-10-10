@@ -45,6 +45,7 @@ function makeCtx(lang, pagePath) {
     selfLink: rel(full),                          // 本頁（給 hreflang 用）
     other,
     rootUrl: rel(''),
+    tourUrl: lang.code === 'zh' ? rel('factory-tour/zh.html') : rel('factory-tour') + '/', // 3D 工廠導覽（factory-tour/ 是另外產生的靜態檔，不經 build.js）
   };
 }
 
@@ -368,6 +369,21 @@ function pageFactory(ctx) {
     ${reveal(`<h2 class="font-display mt-6 max-w-xl text-4xl font-light leading-[1.15] text-[#1e2b41] md:text-5xl">${esc(P.capTitle)}</h2>`, 100)}
     ${reveal(`<p class="mt-6 max-w-xl text-[15px] leading-[1.9] text-[#444]">${esc(P.capDesc)}</p>`, 200)}
     <div class="mt-12 grid gap-x-10 gap-y-10 sm:grid-cols-2">${a.chips.map((c, i) => reveal(`<div class="border-t border-[#e5e2db] pt-6"><span class="font-display text-lg text-[#687c95]">${('0' + (i + 1)).slice(-2)}</span><h3 class="mt-2 text-[16px] font-semibold text-[#1e2b41]">${esc(c)}</h3></div>`, i * 80)).join('')}</div>
+  </div>
+</section>
+<section class="border-t border-[#e5e2db] bg-[#faf9f6] py-24 md:py-36">
+  <div class="mx-auto max-w-[1400px] px-5 md:px-10">
+    <div class="grid gap-12 md:grid-cols-12 md:gap-8">
+      <div class="md:col-span-5">
+        ${reveal(`<p class="caption-label text-[#687c95]">${esc(P.tour.label)}</p>`, 0)}
+        ${reveal(`<h2 class="font-display mt-6 max-w-xl text-4xl font-light leading-[1.15] text-[#1e2b41] md:text-5xl">${esc(P.tour.title)}</h2>`, 100)}
+        ${reveal(`<p class="mt-6 max-w-md text-[15px] leading-[1.9] text-[#444]">${esc(P.tour.desc)}</p>`, 200)}
+        ${reveal(`<a href="${ctx.tourUrl}" class="btn-dark mt-10">${esc(P.tour.button)}</a><p class="tour-note">${esc(P.tour.note)}</p>`, 300)}
+      </div>
+      <div class="md:col-span-7 md:pl-8">
+        ${reveal(`<a href="${ctx.tourUrl}" class="tour-cover"><img src="${ctx.asset('img/factory-tour.jpg')}" alt="${esc(P.tour.title)}" loading="lazy" class="aspect-[3/2] w-full object-cover"><span class="tour-play" aria-hidden="true"></span></a>`, 150)}
+      </div>
+    </div>
   </div>
 </section>` + ctaBand(ctx) + footer(ctx);
   return b;

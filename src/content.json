@@ -291,7 +291,14 @@
         "h1": "从一块亚克力板材，到一只成品浴缸",
         "sub": "同一厂区完成全部工序，品质全程可控。",
         "capTitle": "六道核心工序",
-        "capDesc": "每一只浴缸都在东莞厂区内走完以下工序，不外发、不分段。"
+        "capDesc": "每一只浴缸都在东莞厂区内走完以下工序，不外发、不分段。",
+        "tour": {
+          "label": "3D 工厂导览",
+          "title": "走进工厂看一看",
+          "desc": "依平面图 1:1 建模的东莞工厂。点地板就能四处走动，跟着从亚克力板材到装柜出货的 12 道工序，附工厂实拍照片和视频。",
+          "button": "开始 3D 导览",
+          "note": "用电脑浏览效果最好，手机也可以。"
+        }
       },
       "products": {
         "title": "产品系列",
@@ -629,7 +636,14 @@
         "h1": "From an acrylic sheet to a finished bathtub",
         "sub": "Every step inside one facility, quality controlled end to end.",
         "capTitle": "Six core processes",
-        "capDesc": "Every bathtub goes through the following steps inside our Dongguan facility. Nothing is outsourced."
+        "capDesc": "Every bathtub goes through the following steps inside our Dongguan facility. Nothing is outsourced.",
+        "tour": {
+          "label": "3D FACTORY TOUR",
+          "title": "Walk through the factory",
+          "desc": "A 1:1 3D model of our Dongguan factory, built from the floor plan. Click the floor to walk around and follow the 12 steps from acrylic sheet to container, with photos and video from the factory floor.",
+          "button": "Start the 3D tour",
+          "note": "Best on a computer. Works on phones too."
+        }
       },
       "products": {
         "title": "Products",
